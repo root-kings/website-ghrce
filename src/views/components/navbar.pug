@@ -1,0 +1,78 @@
+//- .navbar-fixed
+nav.blue.lighten-1
+    .nav-wrapper.container
+        a.brand-logo(href="#!") Liberty
+        a.sidenav-trigger(href="#", data-target="mobile-demo")
+            i.material-icons menu
+        ul.right.hide-on-med-and-down
+            li
+                a(href="/") Book Seats
+            li
+                a(href="/bookroom.html") Book Room
+            li
+                a(href="/bookings.html") Bookings
+            li  
+                a(href="/fines.html") Fines
+            li  
+                a(href="/books.html") Books
+            li  
+                a(href="/profile.html") Profile
+            li  
+                a(href="/psychometric.html") Psychometric Analysis
+            li  
+                a(href="/about.html") About
+            li  
+                a(href="javascript:logout()") Logout
+
+
+
+
+#mobile-demo.sidenav
+    section
+        .user-view
+            .background
+                img(src="/images/office.jpg")
+            a(href="/profile.html")
+                img.circle(src="/images/yuna.jpg")
+            a(href="/profile.html")
+                span.white-text.name John Doe
+            a(href="/profile.html")
+                span.white-text.email jdandturk@gmail.com
+
+    ul
+        li
+            a(href="/")
+                i.material-icons(style='color:#42a5f5') event_seat
+                | Book Seats
+        li
+            a(href="/bookroom.html") 
+                i.material-icons(style='color:#42a5f5') add_location
+                | Book Room
+        li
+            a(href="/bookings.html") 
+                i.material-icons(style='color:#42a5f5') date_range
+                | Bookings
+        li  
+            a(href="/fines.html")
+                i.material-icons(style='color:#42a5f5') money
+                | Fines
+        li  
+            a(href="/books.html")
+                i.material-icons(style='color:#42a5f5') money
+                | Books
+        li  
+            a(href="/profile.html")
+                i.material-icons(style='color:#42a5f5') person
+                |  Profile
+        li  
+            a(href="/psychometric.html")
+                i.material-icons(style='color:#42a5f5') av_timer
+                | Psychometric Analysis
+        li  
+            a(href="/about.html")
+                i.material-icons(style='color:#42a5f5') face
+                | About
+        li  
+            a(href="javascript:logout()")
+                i.material-icons(style='color:#42a5f5') power_setting_new
+                | Logout
